@@ -40,12 +40,12 @@
 
 ## 文档
 
-* 1. 项目结构说明
-		* 	dist：编译以后文件位置
-		*  src： 源码位置
-		*  test： 测试用例代码
-		*  CHANGELOG.md 历史记录
-		*  README.md  必读
+* # 项目结构说明
+* 	dist：编译以后文件位置
+*  src： 源码位置
+*  test： 测试用例代码
+*  CHANGELOG.md 历史记录
+*  README.md  必读
 
 
 ## License
