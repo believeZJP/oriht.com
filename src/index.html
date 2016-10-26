@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <title>创心</title>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="MENU">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="js/lib/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="js/lib/font-awesome/css/font-awesome.min.css"/>
+  </head>
+  <body>
+  	<!-- 容器-->
+    <div class="container-fluid">
+		<div class="jumbotron masthead">
+			<div class="container">
+				<h1>创心</h1>
+				<h2>创新不止，不忘初心</h2>
+				<!--<p class="masthead-button-links">
+					<a class="btn btn-lg btn-primary btn-shadow" href=">Bootstrap3中文文档(v3.3.5)</a>
+				</p>-->
+				<button class="btn btn-success btn-lg" data-toggle="modal" data-target="#myModal">
+					提点建议 <i class="fa fa-question-circle-o"></i>
+				</button>
+			</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-4">
+			<h2 class="text-center">入口</h2>
+		</div>
+		<div class="col-xs-4">
+			<h2 class="text-center">博客</h2>
+		</div>
+		<div class="col-xs-4">
+			<h2 class="text-center">吐槽</h2>
+		</div>
+	</div>
+    </div>
+    
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+						&times;
+					</button>
+					<h4 class="modal-title" id="myModalLabel">
+						随便吐槽~
+					</h4>
+				</div>
+				<div class="modal-body">
+					 <!-- 多说评论框 start -->
+					<div class="ds-thread" data-thread-key="oriht.com" data-title="创心" data-url="oriht.com"></div>
+					<!-- 多说评论框 end -->
+				</div>
+				<div class="modal-footer">
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal -->
+    </div>
+    
+    
+	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+	<script type="text/javascript">
+		var duoshuoQuery = {
+			short_name: "oriht"
+		};
+	</script>
+	<!-- 多说公共JS代码 end -->
+	<script src="http://static.duoshuo.com/embed.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/lib/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/lib/bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
