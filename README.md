@@ -1,17 +1,9 @@
 # oriht.com
 
-[![Build Status](https://travis-ci.org/h5bp/html5-boilerplate.svg)](https://travis-ci.org/h5bp/html5-boilerplate)
-[![devDependency Status](https://david-dm.org/h5bp/html5-boilerplate/dev-status.svg)](https://david-dm.org/h5bp/html5-boilerplate#info=devDependencies)
+## 具体朝什么方向发展还不清楚，
+## 暂时作为一些通用代码功能的展示和学习交流
 
-HTML5 Boilerplate is a professional front-end template for building
-fast, robust, and adaptable web apps or sites.
-
-This project is the product of many years of iterative development and
-combined community knowledge. It does not impose a specific development
-philosophy or framework, so you're free to architect your code in the
-way that you want.
-
-* Homepage: [https://oriht.com](https://oriht.com)
+* Homepage: [http://oriht.com](https://oriht.com)
 * Source: [https://github.com/believeZJP/oriht.com](https://github.com/believeZJP/oriht.com)
 
 
@@ -49,11 +41,11 @@ way that you want.
 ## 文档
 
 * 1. 项目结构说明
-		a 	dist：编译以后文件位置
-		b  src： 源码位置
-		c  test： 测试用例代码
-		d  CHANGELOG.md 历史记录
-		e  README.md  必读
+		* 	dist：编译以后文件位置
+		*  src： 源码位置
+		*  test： 测试用例代码
+		*  CHANGELOG.md 历史记录
+		*  README.md  必读
 
 
 ## License
